@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="" />
+    <list default="true" id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" afterDir="false" />
+    </list>
+    <list id="364ba2f9-6629-498e-b860-463397d602a1" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/META-INF/data-structures.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/DoublyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/DoublyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/MyArrayList$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/MyArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/tests/TestDoublyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structures/com/company/tests/TestMyArrayList.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +28,44 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="219" column="37" selection-start-line="219" selection-start-column="37" selection-end-line="219" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="274" column="29" lean-forward="true" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="29" />
+              <folding>
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/com/company/tests/TestMyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/company/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -53,10 +105,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="491" />
-    <option name="width" value="972" />
-    <option name="height" value="557" />
+    <option name="x" value="70" />
+    <option name="y" value="27" />
+    <option name="width" value="1296" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -64,8 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,10 +128,18 @@
               <item name="data-structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,10 +238,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestDoublyLinkedList" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestDoublyLinkedList.testAddLast" />
         <item itemvalue="JUnit.TestDoublyLinkedList.testAddFirst" />
         <item itemvalue="JUnit.TestDoublyLinkedList.testGet" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -193,49 +251,59 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="" />
+      <changelist id="364ba2f9-6629-498e-b860-463397d602a1" name="ignore" comment="" />
       <created>1606755043840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606755043840</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1608558690569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608558690569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 14m 45s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 28m 04s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 15m 42s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 33m 09s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 17m 21s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 33m 44s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 17m 51s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 33m 50s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 18m 06s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 34m 19s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 19m 09s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 34m 56s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 19m 35s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 35m 21s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 19m 49s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 36m 02s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 19m 56s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 47m 37s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.19 at 21h 20m 01s.xml">
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 48m 40s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="414" width="1296" height="741" extended-state="6" />
+    <frame x="70" y="27" width="1296" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,8 +312,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5017182" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3969072" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48793104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -307,6 +375,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -330,9 +402,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java</url>
-          <line>154</line>
+          <line>158</line>
           <properties />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -380,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestMyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -408,10 +479,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+        <state relative-caret-position="103">
+          <caret line="219" column="37" selection-start-line="219" selection-start-column="37" selection-end-line="219" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -420,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="318">
+          <caret line="274" column="29" lean-forward="true" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="29" />
           <folding>
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />

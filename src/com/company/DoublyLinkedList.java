@@ -1,5 +1,7 @@
 package com.company;
 
+import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
+
 public class DoublyLinkedList<T> {
 
     private int size = 0;
@@ -124,6 +126,7 @@ public class DoublyLinkedList<T> {
         }
 
         head = head.next;
+        head.prev.next = null;
         head.prev = null;
 
         --size;
@@ -144,6 +147,7 @@ public class DoublyLinkedList<T> {
         }
 
         tail = tail.prev;
+        tail.next.prev = null;
         tail.next = null;
 
         --size;
@@ -171,9 +175,44 @@ public class DoublyLinkedList<T> {
             if (data.equals(element)) {
                 trav.prev.next = trav.next;
                 trav.next.prev = trav.prev;
+                trav.data = null;
+                trav.next = null;
+                trav.prev = null;
+                trav = null;
                 --size;
                 return true;
 
+            }
+        }
+
+        return false;
+    }
+
+    public boolean removeAt(int index) {
+        if (index >= size()) {
+            throw new IndexOutOfBoundsException();
+        }
+        if (index == 0) {
+            removeFirst();
+            return true;
+        }
+        if (index == size() - 1) {
+            removeLast();
+            return true;
+        }
+
+        Node<T> trav = head;
+        for (int i = 1; i < size() - 1; i++) {
+            trav = trav.next;
+            if (i == index) {
+                trav.prev.next = trav.next;
+                trav.next.prev = trav.prev;
+                trav.data = null;
+                trav.next = null;
+                trav.prev = null;
+                trav = null;
+                --size;
+                return true;
             }
         }
 
@@ -197,6 +236,47 @@ public class DoublyLinkedList<T> {
         }
 
         return false;
+    }
+
+    public boolean set(int index, T element) {
+        if (isEmpty()) {
+            return false;
+        }
+        if (index >= size()) {
+            throw new IndexOutOfBoundsException();
+        }
+        if (index == 0) {
+            head.data = element;
+            return true;
+        }
+        if (index == size() - 1) {
+            tail.data = element;
+            return true;
+        }
+
+        Node<T> trav = head;
+        for (int i = 1; i < size() - 1; i++) {
+            trav = trav.next;
+            if (i == index) {
+                trav.data = element;
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public void clear() {
+        Node<T> trav = head;
+        for (int i = 1; i < size(); i++) {
+            Node<T> next = trav.next;
+            trav.next = null;
+            trav.prev = null;
+            trav.data = null;
+            trav = next;
+        }
+        head = tail = trav = null;
+        size = 0;
     }
 
 }

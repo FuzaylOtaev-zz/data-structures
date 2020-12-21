@@ -145,4 +145,78 @@ public class TestDoublyLinkedList {
         assertEquals("[]", list.toString());
 
     }
+
+    @Test
+    public void testRemoveAt() {
+        boolean is_removed = list.removeAt(2);
+        assertTrue(is_removed);
+        assertFalse(list.contains(3));
+        assertEquals(6, list.size());
+        assertEquals("[2, 4, 7, 8, 22, 36]", list.toString());
+
+        is_removed = list.removeAt(4);
+        assertTrue(is_removed);
+        assertFalse(list.contains(22));
+        assertEquals(5, list.size());
+        assertEquals("[2, 4, 7, 8, 36]", list.toString());
+
+        is_removed = list.removeAt(0);
+        assertTrue(is_removed);
+        assertFalse(list.contains(2));
+        assertEquals(4, list.size());
+        assertEquals("[4, 7, 8, 36]", list.toString());
+
+        is_removed = list.removeAt(2);
+        assertTrue(is_removed);
+        assertFalse(list.contains(8));
+        assertEquals(3, list.size());
+        assertEquals("[4, 7, 36]", list.toString());
+
+        is_removed = list.removeAt(2);
+        assertTrue(is_removed);
+        assertFalse(list.contains(36));
+        assertEquals(2, list.size());
+        assertEquals("[4, 7]", list.toString());
+
+        is_removed = list.removeAt(0);
+        assertTrue(is_removed);
+        assertFalse(list.contains(4));
+        assertEquals(1, list.size());
+        assertEquals("[7]", list.toString());
+
+        is_removed = list.removeAt(0);
+        assertTrue(is_removed);
+        assertFalse(list.contains(7));
+        assertEquals(0, list.size());
+        assertEquals("[]", list.toString());
+    }
+
+    @Test
+    public void testSet() {
+        boolean is_set = list.set(0, 100);
+        assertTrue(is_set);
+        assertEquals(100, (long) list.get(0));
+
+        is_set = list.set(list.size() - 1, 150);
+        assertTrue(is_set);
+        assertEquals(150, (long) list.get(list.size() - 1));
+
+        is_set = list.set(2, 500);
+        assertTrue(is_set);
+        assertEquals(500, (long) list.get(2));
+
+        is_set = list.set(4, 820);
+        assertTrue(is_set);
+        assertEquals(820, (long) list.get(4));
+
+        is_set = list.set(3, 555);
+        assertTrue(is_set);
+        assertEquals(555, (long) list.get(3));
+    }
+
+    @Test
+    public void testClear() {
+        list.clear();
+        assertEquals(0, list.size());
+    }
 }
