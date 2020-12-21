@@ -219,4 +219,19 @@ public class TestDoublyLinkedList {
         list.clear();
         assertEquals(0, list.size());
     }
+
+    @Test
+    public void testForEach() {
+        for (Integer i : list) {
+            System.out.println(i);
+        }
+    }
+
+    @Test
+    public void testIndexOf() {
+        assertEquals(3, list.indexOf(7));
+        assertEquals(6, list.indexOf(36));
+        assertEquals(1, list.indexOf(4));
+        assertEquals(0, list.indexOf(2));
+    }
 }

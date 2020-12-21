@@ -1,8 +1,8 @@
 package com.company;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
+import java.util.Iterator;
 
-public class DoublyLinkedList<T> {
+public class DoublyLinkedList<T> implements Iterable<T> {
 
     private int size = 0;
     private Node<T> head = null;
@@ -279,4 +279,44 @@ public class DoublyLinkedList<T> {
         size = 0;
     }
 
+    public int indexOf(T element) {
+        if (isEmpty()) {
+            return -1;
+        }
+
+        if (head.data.equals(element)) {
+            return 0;
+        }
+        if (tail.data.equals(element)) {
+            return size() - 1;
+        }
+
+        Node<T> trav = head;
+        for (int i = 1; i < size() - 1; i++) {
+            trav = trav.next;
+            if (trav.data.equals(element)) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<T>() {
+            Node<T> trav = head;
+            @Override
+            public boolean hasNext() {
+                return trav.next != null;
+            }
+
+            @Override
+            public T next() {
+                T data = trav.data;
+                trav = trav.next;
+                return data;
+            }
+        };
+    }
 }
