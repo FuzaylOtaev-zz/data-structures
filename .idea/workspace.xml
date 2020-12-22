@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="initial commit">
+    <list default="true" id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/tests/TestStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" afterDir="false" />
     </list>
     <list id="364ba2f9-6629-498e-b860-463397d602a1" name="ignore" comment="">
       <change afterPath="$PROJECT_DIR$/out/production/data-structures/META-INF/data-structures.kotlin_module" afterDir="false" />
@@ -28,12 +27,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="219" column="37" selection-start-line="219" selection-start-column="37" selection-end-line="219" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,16 +40,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="274" column="29" lean-forward="true" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="29" />
+            <state relative-caret-position="176">
+              <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MyArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+              <folding>
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -92,15 +132,11 @@
         <option value="$PROJECT_DIR$/src/com/company/tests/TestMyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/company/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/company/DoublyLinkedList.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/TestStack.java" />
       </list>
     </option>
   </component>
@@ -116,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,12 +171,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDoublyLinkedList">
+  <component name="RunManager" selected="JUnit.TestStack">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="data-structures" />
@@ -219,7 +262,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDoublyLinkedList.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
@@ -228,20 +271,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.company.tests.TestDoublyLinkedList" />
-      <option name="METHOD_NAME" value="testGet" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.TestStack" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStack" />
         <item itemvalue="JUnit.TestDoublyLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestDoublyLinkedList.testAddLast" />
         <item itemvalue="JUnit.TestDoublyLinkedList.testAddFirst" />
-        <item itemvalue="JUnit.TestDoublyLinkedList.testGet" />
       </list>
     </recent_temporary>
   </component>
@@ -264,31 +306,24 @@
       <option name="project" value="LOCAL" />
       <updated>1608558690569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="doubly linked list completed">
+      <created>1608573902778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608573902795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added iterator and indexOf to doubly linked list">
+      <created>1608574635171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608574635171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 28m 04s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 33m 09s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 33m 44s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 33m 50s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 34m 19s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 34m 56s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 35m 21s.xml">
-      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 36m 02s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
@@ -298,12 +333,33 @@
     <history-entry file="TestDoublyLinkedList - 2020.12.21 at 22h 48m 40s.xml">
       <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 23h 13m 54s.xml">
+      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 23h 15m 19s.xml">
+      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 23h 16m 11s.xml">
+      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDoublyLinkedList - 2020.12.21 at 23h 16m 44s.xml">
+      <configuration name="TestDoublyLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStack - 2020.12.22 at 22h 21m 43s.xml">
+      <configuration name="TestStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStack - 2020.12.22 at 22h 23m 10s.xml">
+      <configuration name="TestStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStack - 2020.12.22 at 22h 24m 19s.xml">
+      <configuration name="TestStack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -319,7 +375,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.6051724" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -360,6 +416,30 @@
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -377,7 +457,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="doubly linked list completed" />
+    <MESSAGE value="added iterator and indexOf to doubly linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added iterator and indexOf to doubly linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        <state relative-caret-position="1380">
+          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
           <folding>
             <element signature="e#650#651#0" expanded="true" />
             <element signature="e#685#686#0" expanded="true" />
@@ -481,30 +563,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="219" column="37" selection-start-line="219" selection-start-column="37" selection-end-line="219" selection-end-column="37" />
+        <state relative-caret-position="375">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/DoublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="274" column="29" lean-forward="true" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="29" />
+        <state relative-caret-position="498">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/tests/TestStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
