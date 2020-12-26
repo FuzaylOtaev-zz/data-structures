@@ -1,14 +1,14 @@
 package com.company.tests;
 
-import com.company.MyQueue;
+import com.company.ArrayQueue;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-public class TestMyQueue {
+public class TestArrayQueue {
 
-    private MyQueue<Integer> queue = new MyQueue<>();
+    private ArrayQueue<Integer> queue = new ArrayQueue<>(100);
 
     @Before
     public void setUp() {

@@ -24,7 +24,7 @@ public class MyQueue<T> implements Iterable<T> {
         return list.getFirst();
     }
 
-    public T poll() {
+    public T pop() {
         if (isEmpty()) {
             throw new RuntimeException("empty queue");
         }
