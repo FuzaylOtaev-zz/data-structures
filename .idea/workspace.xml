@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="fenwick tree implementation">
-      <change afterPath="$PROJECT_DIR$/src/com/company/AVLTreeRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/tests/TestAVLTree.java" afterDir="false" />
+    <list default="true" id="badc499e-b705-44d1-adb2-2b094828a216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/MinIndexedDHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/tests/TestMinIndexedDHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="364ba2f9-6629-498e-b860-463397d602a1" name="ignore" comment="">
@@ -147,20 +147,7 @@
       <recent name="$PROJECT_DIR$/src/com/company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAVLTree">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestMinIndexedDHeap">
     <configuration name="TestAVLTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures" />
       <extension name="coverage">
@@ -207,7 +194,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHashtableQuadraticProbing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMinIndexedDHeap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
@@ -216,19 +203,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.company.tests.TestHashtableQuadraticProbing" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.TestMinIndexedDHeap" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMinIndexedDHeap.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.TestMinIndexedDHeap" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMinIndexedDHeap" />
+        <item itemvalue="JUnit.TestMinIndexedDHeap.testInsert" />
         <item itemvalue="JUnit.TestAVLTree" />
         <item itemvalue="JUnit.TestFenwickTree" />
         <item itemvalue="JUnit.TestFenwickTree.testPrefixSum" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestHashtableQuadraticProbing" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615857323995</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="AVL(BALANCED BINARY SEARCH) Tree implementation">
+      <created>1616635439408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616635439408</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -449,7 +459,8 @@
     <MESSAGE value="hashtable_separate_chaining implementation" />
     <MESSAGE value="hashtable_quadratic probing implementation" />
     <MESSAGE value="fenwick tree implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fenwick tree implementation" />
+    <MESSAGE value="AVL(BALANCED BINARY SEARCH) Tree implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="AVL(BALANCED BINARY SEARCH) Tree implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,6 +544,21 @@
           <url>file://$PROJECT_DIR$/src/com/company/AVLTreeRecursive.java</url>
           <line>155</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/tests/TestMinIndexedDHeap.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/tests/TestMinIndexedDHeap.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/MinIndexedDHeap.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
